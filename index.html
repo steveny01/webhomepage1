@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <header class="logo"><strong>in</strong>VISION</header>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <ul class="nav-links " id="navLinks">
+            <li>Platform Tour</li>
+            <li>Design Education</li>
+            <li>Design Community</li>
+            <li>Enterprise</li>
+       </ul>
+       <h4 class="sign-in"><a href="loginform/index.html">sign in</a></h4>
+       <label class="sign-up">SIGN UP</label>
+         
+         
+    </nav>
+    
+    <script>
+        function toggleMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+        }
+    </script>
+
+    <main>
+        <h1>DESIGN BETTER. FASTER. TOGETHER.</h1>
+        <p class="quote">The digital product design platform powering the world's best user experiences</p>
+        <div  class="input-border">
+            <input class="input" type="text" placeholder="Your email address" ">
+            <p class="border">GET STARTED - FREE FOREVER</p>
+        </div>
+    </main>
+        
+</body>
+</html>
